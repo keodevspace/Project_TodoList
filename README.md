@@ -30,8 +30,6 @@ Estas instruções abaixo permitirão que você obtenha uma cópia do projeto em
 git clone https://github.com/keodevspace/Project_TakeOneNote.git
 
 ```
-<br>
-<br>
 
 ## 📋 Pré-requisitos
 
