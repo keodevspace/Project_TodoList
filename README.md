@@ -12,7 +12,7 @@ Verifique o link LIVE DEMO para experimentar o Take One Note!
 
 ## 🌐 Live Demo
 
-#Acesse o [Take One Note]().
+Acesse o [Take One Note]().
 <br>
 <br>
 
