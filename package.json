@@ -1,0 +1,15 @@
+{
+  "name": "project_takeonenote-1",
+  "version": "1.0.0",
+  "description": "O projeto Take Onde Note foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. Turma: 1121\r <br>\r <br>\r Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibilidade e com diversas funcionalidades. \r <br>\r <br>\r Verifique o link LIVE DEMO para experimentar o Take One Note!\r <br>\r <br>\r ![GIF]()",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
