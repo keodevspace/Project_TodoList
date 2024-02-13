@@ -1,26 +1,13 @@
-module.exports = {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": "google",
-    "overrides": [
-        {
-            "env": {
-                "node": true
-            },
-            "files": [
-                ".eslintrc.{js,cjs}"
-            ],
-            "parserOptions": {
-                "sourceType": "script"
-            }
-        }
-    ],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "rules": {
-    }
-}
+export const env = {
+    browser: true,
+    es2021: true,
+  };
+  export const extendsArray = ['eslint:recommended', 'plugin:prettier/recommended'];
+  export const parserOptions = {
+    ecmaVersion: 12,
+    sourceType: 'module',
+  };
+  export const plugins = ['prettier'];
+  export const rules = {
+    'prettier/prettier': 'error',
+  };

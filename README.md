@@ -1,5 +1,5 @@
-# Take One Note
-O projeto Take Onde Note foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. Turma: 1121
+# Take1Note
+O projeto Take1Note foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. Projeto em grupo, Turma: 1121.
 <br>
 <br>
 Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibilidade e com diversas funcionalidades. 
@@ -10,9 +10,15 @@ Verifique o link LIVE DEMO para experimentar o Take One Note!
 <br>
 ![GIF]()
 
-## 🌐 Live Demo
+## ⚙️ Ferramentas utilizadas
 
-Acesse o [Take One Note]().
+- Javascript
+- CSS
+- HTML
+- Data-FMS
+- Eslint
+- Prettier
+- Node.js
 <br>
 <br>
 
