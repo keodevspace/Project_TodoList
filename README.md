@@ -15,7 +15,7 @@ Verifique o link LIVE DEMO para experimentar o Take One Note!
 - Javascript
 - CSS
 - HTML
-- Data-FMS
+- Data-FNS
 - Eslint
 - Prettier
 - Node.js
