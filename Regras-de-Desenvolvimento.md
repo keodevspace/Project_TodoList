@@ -1,6 +1,6 @@
 # RECOMENDAÇÕES
 
-1) Antes de commitar qualquer alteração, rode o comando `npm run lint` para verificar se o código está seguindo o padrão de estilo do projeto;
+1) Antes de commitar qualquer alteração, set o comando de formatação do código com shift + alt + F ;
 
 2) Certifique-se de que o código está funcionando antes de commitar;
 
@@ -9,8 +9,6 @@
 4) Não commitar código que não está sendo utilizado;
 
 5) Não commitar arquivos que não estão sendo utilizados;
-
-6) Lembre-se de utilizar ALT + SHIFT + F para formatar o código com a extensão Prettier;
 
 
 # PRINCIPAIS COMANDOS DO GIT
@@ -27,8 +25,5 @@ OBS: Lembrar de solicitar o pull requeste no Github e solicitar o code review pa
 
 # Como rodar o projeto
 1) Clone o repositório
-2) Rode o comando `npm install` para instalar as dependências
 3) Acesse o endereço `http://localhost:[PORTA-ESCOLHIDA]` no seu navegador
 4) Faça as alterações necessárias no código conforme as regras recomendadas
-5) Rode o comando `npm run lint` para verificar se o código está seguindo o padrão de estilo do projeto
-6) Rode o comando `npm start` para iniciar o servidor
