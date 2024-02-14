@@ -1,5 +1,5 @@
-# Take One Note
-O projeto Take Onde Note foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. Turma: 1121
+# TodoList
+O projeto TodoList foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. Turma: 1121
 <br>
 <br>
 Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibilidade e com diversas funcionalidades. 
@@ -11,9 +11,7 @@ Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibi
 ## Ferramentas e Tecnologias
 - JS Vanilla
 - HTML
-- CSS
 - Bootstrap
-- Eslint + Prettier
 <br>
 
 ## 🚀 Iniciando com fins de Teste
@@ -27,7 +25,7 @@ Estas instruções abaixo permitirão que você obtenha uma cópia do projeto em
 
 ```bash
 
-git clone https://github.com/keodevspace/Project_TakeOneNote.git
+git clone https://github.com/keodevspace/Project_TodoList.git
 
 ```
 
