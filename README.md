@@ -72,10 +72,7 @@ Para testar o seu website localmente utilizando o Live Server no Visual Studio C
 O Live Server iniciará um servidor local e abrirá o seu website no navegador padrão. Qualquer alteração que você fizer nos arquivos do projeto será automaticamente refletida no navegador.
 <br>
 <br>
-Certifique-se de testar as diferentes funcionalidades e visualizar o seu website localmente antes de implantar em um ambiente de produção.
-<br>
-<br>
-Consulte [Implantação](#implantação) para obter informações sobre como implantar o projeto.
+Certifique-se de testar as diferentes funcionalidades e visualizar o seu website localmente antes de implantar na branch main.
 <br>
 <br>
 
@@ -90,9 +87,9 @@ Usamos Git para controle de versão. Para as versões disponíveis, observe as t
 
 1. [Arthur Caldas](https://github.com/arthurcaaldas)
 
-2. [Cleiton Sena]()
+2. [Cleiton Sena](https://github.com/CleitonSena21)
 
-3. [Kauãn Cunha]()
+3. [Kauãn Cunha](https://github.com/Kaua-da-Cunha-Rodrigues)
 
 4. [Keo Coelho](https://github.com/keodevspace)
 
