@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TodoList</title>   
+  <title>TodoList</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -13,20 +13,20 @@
   <script src="todolist.js" defer></script>
 </head>
 
-<body class="m-5 px-5 py-5 bg-dark text-white">
+<body class="p-1 container-fluid bg-dark text-white">
 
   <header>
     <h1 class="text-center">Todo List</h1>
-    
-    <h6 class="text-center text-secondary mb-5 ">
-      <span class="placeholder col-1 bg-secondary"></span> 
-      Seu problema de memória resolvido 
+
+    <h6 class="text-center mb-5">
       <span class="placeholder col-1 bg-secondary"></span>
-    </h6> 
-     
-    </header>
-  
-  <main class="container px-5 w-50">
+      Organize seu dia!
+      <span class="placeholder col-1 bg-secondary"></span>
+    </h6>
+
+  </header>
+
+  <main class="container px-5">
 
     <section id="task-list">
       <form class="px-5 mx-5">
@@ -36,55 +36,64 @@
         </div>
         <div class="mb-3">
           <label for="task-details" class="form-label">Detalhes da tarefa</label>
-          <input type="description" class="form-control" id="task-details" placeholder="Escreva aqui detalhes da tarefa...">
+          <input type="description" class="form-control" id="task-details"
+            placeholder="Escreva aqui detalhes da tarefa...">
         </div>
-        <button type="submit" class="btn btn-secondary mb-5" id="btn-store">Guardar</button>
+        <button type="submit" class="btn btn-secondary mb-2" id="btn-store">Guardar</button>
       </form>
-     
-    </section>   
+
+    </section>
 
     <section>
-      <div class="list-group mb-3 px-5" id="taks-list">
-        <div class="list-group-item flex-column align-items-start bg-dark text-white border-secondary">
-          <div class="d-flex w-100 justify-content-between">
+      <div class="list-group p-3 mb-3" id="taks-list">
+        <div class="list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle">
+          <div class="d-flex justify-content-between">
             <h5 class="mb-1" id="task-title">Titulo da tarefa</h5>
-            <button id="btn-edit" class=" text-white bg-dark">Editar</button>
           </div>
-          <p class="mb-1 py-4" id="task-content">Aqui fica a descricao da tarefa e o tamanho do conteainer respeita o tamanho da mensagem
-            ajustando-se.</p>
-          <button id="btn-remove" class="bg-danger text-white">Remover</button>
-        </div>
-        
-        <div class="list-group-item flex-column align-items-start bg-dark text-white border-secondary">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1" id="task-title">Titulo da tarefa</h5>
-            <button id="btn-edit" class="text-white bg-dark">Editar</button>
-          </div>
-          <p class="mb-1 py-4" id="task-content">Aqui fica a descricao da tarefa e o tamanho do conteainer respeita o tamanho da mensagem
-            ajustando-se.</p>
-          <button id="btn-remove" class="bg-danger text-white">Remover</button>
+          <p class="mb-1 py-4" id="task-content">
+            Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Eu nunca mais boto
+            a boca num copo de cachaça, agora eu só uso canudis! Negão é teu passadis, eu sou faxa pretis. Casamentiss
+            faiz malandris se pirulitá.
+          </p>
+          <button id="btn-edit" class="btn btn-secondary">Editar</button>
+          <button id="btn-remove" class="btn btn-secondary">Remover</button>
         </div>
 
-        <div class="list-group-item flex-column align-items-start bg-dark text-white border-secondary">
-          <div class="d-flex w-100 justify-content-between">
+        <div class="list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle">
+          <div class="d-flex justify-content-between">
             <h5 class="mb-1" id="task-title">Titulo da tarefa</h5>
-            <button id="btn-edit" class=" text-white bg-dark">Editar</button>
           </div>
-          <p class="mb-1 py-4" id="task-content">Aqui fica a descricao da tarefa e o tamanho do conteainer respeita o tamanho da mensagem
-            ajustando-se.</p>
-          <button id="btn-remove" class="bg-danger text-white">Remover</button>
+          <p class="mb-1 py-4" id="task-content">
+            Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Eu nunca mais boto
+            a boca num copo de cachaça, agora eu só uso canudis! Negão é teu passadis, eu sou faxa pretis. Casamentiss
+            faiz malandris se pirulitá.
+          </p>
+          <button id="btn-edit" class="btn btn-secondary">Editar</button>
+          <button id="btn-remove" class="btn btn-secondary">Remover</button>
         </div>
 
-      </div>      
+        <div class="list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1" id="task-title">Titulo da tarefa</h5>
+          </div>
+          <p class="mb-1 py-4" id="task-content">
+            Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Eu nunca mais boto
+            a boca num copo de cachaça, agora eu só uso canudis! Negão é teu passadis, eu sou faxa pretis. Casamentiss
+            faiz malandris se pirulitá.
+          </p>
+          <button id="btn-edit" class="btn btn-secondary">Editar</button>
+          <button id="btn-remove" class="btn btn-secondary">Remover</button>
+        </div>
+
+      </div>
     </section>
   </main>
 
+  <footer class="text-center text-secondary">
+    <span class="placeholder col-2 bg-secondary"></span>
+    develop by SquadTwo
+    <span class="placeholder col-2 bg-secondary"></span>
+  </footer>
 
-    <footer class="text-center text-secondary mb-3 py-5">
-      <span class="placeholder col-2 bg-secondary"></span> 
-      develop by SquadTwo 
-      <span class="placeholder col-2 bg-secondary"></span>
-    </footer>  
-    <script src="todolist.js" defer></script>
 </body>
 </html>
