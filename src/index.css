@@ -1,4 +1,14 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
 body {
-    margin-top: 50px;
-    word-wrap: break-word;
+  margin-top: 50px;
+  word-wrap: break-word;
 }
