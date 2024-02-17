@@ -72,4 +72,8 @@ document.addEventListener("DOMContentLoaded", function() {
             alert('Por favor, preencha todos os campos.');
         }
     });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> a0c4658e4fa7a5e41bde99e10d38714f3bc4d02c
