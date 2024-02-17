@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (taskTitle !== '' && taskDetails !== '') {
             const listItem = document.createElement('div');
-            listItem.className = 'list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check';
+            listItem.className = 'list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check form-switch';
             
             const titleElement = document.createElement('h5');
             titleElement.className = 'mb-1';
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
             switchLabel.className = "form-check-label";
             switchLabel.textContent = "Feito";
             const switchBtn = document.createElement('input');
-            switchBtn.className = "p-2 form-check-input form-switch";
+            switchBtn.className = "p-2 form-check-input";
             switchBtn.setAttribute('type', 'checkbox');
             switchBtn.setAttribute('role', 'switch');
             switchBtn.setAttribute("id", "flexSwitchCheckDefault");
