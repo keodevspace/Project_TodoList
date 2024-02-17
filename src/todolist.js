@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (taskTitle !== '' && taskDetails !== '') {
             const listItem = document.createElement('div');
-            listItem.className = 'list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle';
+            listItem.className = 'list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check form-switch';
             
             const titleElement = document.createElement('h5');
             titleElement.className = 'mb-1';
@@ -40,11 +40,18 @@ document.addEventListener("DOMContentLoaded", function() {
             removeBtn.addEventListener('click', function() {
                 listItem.remove();
             });
+
+            const switchBtn = document.createElement('input');
+            switchBtn.className = "form-check-input mt-3 float-end";
+            switchBtn.setAttribute('type', 'checkbox');
+            switchBtn.setAttribute('role', 'switch');
+            switchBtn.setAttribute("id", "flexSwitchCheckDefault")
             
             listItem.appendChild(titleElement);
             listItem.appendChild(detailsElement);
             listItem.appendChild(editBtn);
             listItem.appendChild(removeBtn);
+            listItem.appendChild(switchBtn);
             
             taskList.appendChild(listItem);
             
