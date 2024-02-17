@@ -5,65 +5,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TodoList</title>
-  
+
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="index.css">
-  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-  crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script src="todolist.js" defer></script>
 </head>
 
-<body class="p-1 container-fluid bg-dark text-white">
-  
+<body class="pt-5 bg-dark text-white">
+
   <header>
     <h1 class="text-center">Todo List</h1>
-    
+
     <h6 class="text-center mb-5">
       <span class="placeholder col-1 bg-secondary"></span>
       Organize seu dia!
       <span class="placeholder col-1 bg-secondary"></span>
     </h6>
-    
+
   </header>
-  
-  <main class="container px-5">
-    
+
+  <main class="">
+
     <section id="task-list">
-      <form class="px-5 mx-5">
-        <div class="mb-3">
-          <label for="title" class="form-label">Titulo</label>
-          <input type="title" class="form-control " id="task-title" placeholder="Qual o título de sua tarefa?">
+      <form class="d-flex justify-content-center ">
+        <div>
+          <div class="d-flex grid gap-3">
+            <div class="mb-3">
+              <label for="title" class="form-label"></label>
+              <input type="title" class="form-control " id="task-title" placeholder="Título">
+            </div>
+            <div class="mb-3">
+              <label for="task-details" class="form-label"></label>
+              <input type="description" class="form-control" id="task-details"
+                placeholder="Descrição">
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <button type="submit" class="btn btn-secondary mb-4" id="btn-store">Guardar</button>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="task-details" class="form-label">Detalhes da tarefa</label>
-          <input type="description" class="form-control" id="task-details"
-          placeholder="Escreva aqui detalhes da tarefa...">
-        </div>
-        <button type="submit" class="btn btn-secondary mb-4" id="btn-store">Guardar</button>
       </form>
-      
     </section>
-    
+
     <section class="col-md-11 px-5 mx-5">
       <div class="list-group p-3 mb-3" id="taks-list">
         <div class="list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle">
           <div class="d-flex justify-content-between">
-            <h3>Tasks:</h3>
+            <h3>Tasks</h3>
           </div>
         </div>
       </div>
     </section>
   </main>
-  
+
   <footer class="text-center text-secondary">
     <span class="placeholder col-2 bg-secondary"></span>
     develop by SquadTwo
     <span class="placeholder col-2 bg-secondary"></span>
   </footer>
-  
+
 </body>
+
 </html>
