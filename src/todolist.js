@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             removeBtn.className = 'btn btn-secondary m-2';
             removeBtn.textContent = 'Remover';
             removeBtn.addEventListener('click', function() {
-                listItem.classList.add('animate__animated', 'animate__backOutDown');
+                listItem.classList.add('animate_animated', 'animate_backOutDown');
                 setTimeout(function() {
                     listItem.remove();
                 }, 1000);
@@ -70,6 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
             taskDetailsInput.value = '';
         } else {
             alert('Por favor, preencha todos os campos.');
-        }
-    });
+        }
+    });
 });
