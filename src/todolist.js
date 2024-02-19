@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const taskTitleInput = document.getElementById("task-title");
   const taskDetailsInput = document.getElementById("task-details");
   const addTaskBtn = document.getElementById("btn-store");
-  const taskList = document.getElementById("taks-list");
+  const taskList = document.getElementById("task-list");
 
   addTaskBtn.addEventListener("click", function (event) {
     event.preventDefault();
