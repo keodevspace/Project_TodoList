@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "scripts": {
+    "lint": "eslint . --fix"
+  }
+}
