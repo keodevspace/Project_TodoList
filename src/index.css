@@ -12,3 +12,8 @@ body {
   margin-top: 50px;
   word-wrap: break-word;
 }
+
+#taks-list {
+  width: 80%;
+ 
+}

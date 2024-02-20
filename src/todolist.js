@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (taskTitle !== "" && taskDetails !== "") {
       const listItem = document.createElement("div");
       listItem.className =
-        "list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check";
+        "list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check form-switch";
 
       const titleElement = document.createElement("h5");
       titleElement.className = "mb-1";
@@ -45,16 +45,30 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 1000);
       });
 
-      const switchContainer = document.createElement("div");
-      switchContainer.className = "mt-3 float-end";
+      const switchContainer = document.createElement("section");
+      switchContainer.className = "px-5 mb-3 mt-2 float--right";
+
       const switchLabel = document.createElement("label");
       switchLabel.className = "form-check-label";
       switchLabel.textContent = "Feito";
+
       const switchBtn = document.createElement("input");
-      switchBtn.className = "p-2 form-check-input form-switch";
+      switchBtn.className = "px-3 form-check-input form-switch";
       switchBtn.setAttribute("type", "checkbox");
       switchBtn.setAttribute("role", "switch");
       switchBtn.setAttribute("id", "flexSwitchCheckDefault");
+
+      // tentando fazer a cor do switch funcionar
+      switchBtn.addEventListener("change", function () {
+        if (switchBtn.checked) { 
+          switchContainer.classList.add("bg-success");          
+          taskList.appendChild(listItem);
+          
+        } else {         
+          taskList.insertBefore(listItem, taskList.firstChild);      
+          switchContainer.classList.remove("bg-success");    
+        }
+      });
 
       switchContainer.appendChild(switchLabel);
       switchContainer.appendChild(switchBtn);
@@ -65,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       listItem.appendChild(removeBtn);
       listItem.appendChild(switchContainer);
 
-      taskList.appendChild(listItem);
+      taskList.insertBefore(listItem, taskList.firstChild);
 
       taskTitleInput.value = "";
       taskDetailsInput.value = "";
