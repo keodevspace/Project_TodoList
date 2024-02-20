@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (taskTitle !== "" && taskDetails !== "") {
       const listItem = document.createElement("div");
       listItem.className =
-        "list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check";
+        "list-group-item mb-2 flex-column align-items-start bg-dark text-white border-info-subtle form-check form-switch";
 
       const titleElement = document.createElement("h5");
       titleElement.className = "mb-1";
