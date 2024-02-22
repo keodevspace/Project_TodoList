@@ -58,15 +58,22 @@ document.addEventListener("DOMContentLoaded", function () {
       switchBtn.setAttribute("role", "switch");
       switchBtn.setAttribute("id", "flexSwitchCheckDefault");
 
-      // tentando fazer a cor do switch funcionar
       switchBtn.addEventListener("change", function () {
         if (switchBtn.checked) { 
-          switchContainer.classList.add("bg-success");          
+          titleElement.classList.add("text-success");
+          detailsElement.classList.add("text-success");
+          editBtn.style.display = "none"          
+          switchBtn.classList.add("bg-success");
+                
           taskList.appendChild(listItem);
           
         } else {         
-          taskList.insertBefore(listItem, taskList.firstChild);      
-          switchContainer.classList.remove("bg-success");    
+          taskList.insertBefore(listItem, taskList.firstChild);
+          titleElement.classList.remove("text-success");  
+          detailsElement.classList.remove("text-success"); 
+          editBtn.style.display = "inline-block"
+          removeBtn.style.display = "inline-block"
+          switchBtn.classList.remove("bg-success");    
         }
       });
 
