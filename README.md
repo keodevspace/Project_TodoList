@@ -99,6 +99,6 @@ Usamos Git para controle de versão. Para as versões disponíveis, observe as t
 
 2. [Cleiton Sena](https://github.com/CleitonSena21)
 
-3. [Kauãn Cunha](https://github.com/Kaua-da-Cunha-Rodrigues)
+3. [Kauã Cunha](https://github.com/Kaua-da-Cunha-Rodrigues)
 
 4. [Keo Coelho](https://github.com/keodevspace)
