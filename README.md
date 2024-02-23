@@ -8,8 +8,8 @@ Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibi
 <br>
 ![GIF](./src/assets/gif-todolist.gif)
 
-## Ferramentas e Tecnologias
-![Github](https://arthurcaaldas.github.io/Project_TodoList/)
+## Live Demo
+[Demo](https://arthurcaaldas.github.io/Project_TodoList/)
 <br>
 <br>
 
