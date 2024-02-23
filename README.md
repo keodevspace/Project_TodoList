@@ -9,7 +9,7 @@ Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibi
 ![GIF](./src/assets/gif-todolist.gif)
 
 ## Live Demo
-clique [aqui](https://arthurcaaldas.github.io/Project_TodoList/) e veja as funcionalidades!
+Acesse [aqui](https://arthurcaaldas.github.io/Project_TodoList/) o do TodoList para experimentar a aplicação!
 <br>
 <br>
 
@@ -18,7 +18,7 @@ clique [aqui](https://arthurcaaldas.github.io/Project_TodoList/) e veja as funci
 - JS Vanilla
 - HTML 5
 - Bootstrap
-- Vercel App
+- Github Actions
 - Eslint & Prettier
   <br>
 
