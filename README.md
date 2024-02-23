@@ -6,7 +6,7 @@ O projeto TodoList foi desenvolvido como requisito de conclusão do módulo Java
 Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibilidade e com diversas funcionalidades.
 <br>
 <br>
-![GIF]()
+![GIF](./todolist.gif)
 <br>
 
 ## LIVE DEMO
