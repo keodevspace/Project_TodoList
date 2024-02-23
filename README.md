@@ -1,6 +1,8 @@
 # TodoList
 
-O projeto TodoList foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. Turma: 1121
+O projeto TodoList foi desenvolvido como requisito de conclusão do módulo Javascript da bolsa de estudos Santander Coders 2023/2. 
+<br>
+Turma: 1121
 <br>
 <br>
 Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibilidade e com diversas funcionalidades.
