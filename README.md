@@ -11,7 +11,7 @@ Este projeto apresenta uma versão de lista de tarefas desenvolvido com acessibi
 ![GIF](./src/assets/gif-todolist.gif)
 
 ## Live Demo
-Acesse [aqui](https://arthurcaaldas.github.io/Project_TodoList/) o do TodoList para experimentar a aplicação!
+Acesse [aqui](https://arthurcaaldas.github.io/Project_TodoList/) o TodoList para experimentar a aplicação!
 <br>
 <br>
 
